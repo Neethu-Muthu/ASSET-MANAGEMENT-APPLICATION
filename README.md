@@ -2,11 +2,11 @@
 
 ## Overview
 
-Welcome to the IT Asset Management Application project! This initiative aims to revolutionize how organizations manage their IT assets, from computers and devices to software licenses and beyond. Our goal is to create a powerful yet intuitive tool that simplifies asset tracking, enhances resource management, and boosts overall operational efficiency. 
+Welcome to the IT Asset Management Application project! This initiative aims to revolutionize how organizations manage their IT assets, from computers and devices to software licenses and beyond. The goal is to create a powerful yet intuitive tool that simplifies asset tracking, enhances resource management, and boosts overall operational efficiency. 
 
 ## Current Status
 
-As of now, we're actively developing the application. We've completed the frontend, focusing on crafting a user-friendly interface using HTML, CSS (with Tailwind CSS for styling), and JavaScript. This frontend allows users to view existing assets, add new ones, and manage basic asset details effortlessly.
+As of now, I'm actively developing the application. I've completed the frontend, focusing on crafting a user-friendly interface using HTML and CSS (with Tailwind CSS for styling). This frontend allows users to view existing assets, add new ones, and manage basic asset details effortlessly.
 
 ## Planned Features
 
@@ -20,7 +20,7 @@ As of now, we're actively developing the application. We've completed the fronte
 - 
 ## Technologies Used
 
-- Frontend: HTML, CSS (Tailwind CSS), JavaScript
+- Frontend: HTML, CSS (Tailwind CSS)
 - Backend: [Backend Framework/Language] (currently in planning/development phase)
 - Database: [Database System] (to be implemented)
 - Version Control: Git, GitHub
