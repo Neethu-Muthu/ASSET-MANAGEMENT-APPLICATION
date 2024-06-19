@@ -1,4 +1,4 @@
-                                                                  # IT Asset Management Application
+# IT Asset Management Application
 
 ## Overview
 
