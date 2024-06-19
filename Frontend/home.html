@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Management Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bg-hero {
+            background-image: url("../images/home-banner.png.webp"); /* Replace with your desired background image URL */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);">
+
+   
+    <header class="bg-blue-300 shadow-md py-4 px-6 flex justify-between items-center">
+        <div class="text-xl font-bold">ITAM Application</div>
+        <nav class="space-x-4">
+            
+            
+            <a href="/Frontend/signup.html" class="text-gray-600 hover:text-gray-900">Signup</a>
+        </nav>
+    </header>
+
+    <section class="bg-cover bg-center bg-hero text-black py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4">Welcome to Asset Management</h1>
+            <p class="text-1xl text-slate-200 mb-8">Efficiently track and manage your assets with our simple and intuitive application.</p>
+            <a href="login.html" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg text-lg font-semibold inline-block">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-white shadow-md py-12 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold mb-6 text-center">Key Features</h2>
+            <ul class="space-y-4">
+                <li class="flex items-center">
+                    <img src="../images/data-science.png" alt="Feature Icon" class="mr-1 w-10 h-8">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>Track asset details such as location, status, and maintenance history.</span>
+                </li>
+                <li class="flex items-center">
+                    <img src="/images/data-science.png" alt="Feature Icon" class="mr-1 w-10 h-8">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>Generate reports to analyze asset utilization and performance.</span>
+                </li>
+                <li class="flex items-center">
+                    <img src="/images/data-science.png" alt="Feature Icon" class="mr-1 w-10 h-8">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>Manage asset maintenance schedules and service logs.</span>
+                </li>
+                <li class="flex items-center">
+                    <img src="/images/data-science.png" alt="Feature Icon" class="mr-1 w-10 h-8">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>Customizable settings to fit your organization's needs.</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-200 py-4 px-6 text-center">
+        &copy; 2024 Asset Management. All rights reserved.
+    </footer>
+
+</body>
+
+</html>

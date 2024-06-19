@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Audit Logs</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-blue-300">
+    <div class="w-1/2 mx-auto mt-10 p-6 bg-blue-400 rounded-lg shadow-md">
+        <h2 class="text-2xl text-center mb-6">Audit Logs</h2>
+        <form id="filter-form" class="mb-6">
+            <label class="block mb-2">
+                <span class="text-gray-900">Filter by User:</span>
+                <input type="text" name="filter-user" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-blue-500" placeholder="Enter username...">
+            </label>
+            <label class="block mb-2">
+                <span class="text-gray-900">Filter by Date Range:</span>
+                <div class="flex mt-1">
+                    <input type="date" name="filter-start-date" class="px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-blue-500">
+                    <span class="mx-2">to</span>
+                    <input type="date" name="filter-end-date" class="px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-blue-500">
+                </div>
+            </label>
+            <button type="submit" class="w-full bg-indigo-700 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Apply Filters</button>
+        </form>
+        <ul id="audit-log-list">
+            <li class="py-2 border-b">
+                <span class="text-gray-900">2024-06-08 | Admin | Added Asset | Added new laptop</span>
+            </li>
+            <li class="py-2 border-b">
+                <span class="text-gray-900">2024-06-07 | John Doe | Logged Maintenance | Logged service</span>
+            </li>
+            <li class="py-2 border-b">
+                <span class="text-gray-900">2024-06-06 | Jane Smith | Updated Asset | Updated desktop specs</span>
+            </li>
+            
+        </ul>
+    </div>
+
+    
+</body>
+</html>

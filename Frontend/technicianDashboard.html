@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technician Dashboard - ITAM</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-blue-300">
+
+<!-- Header -->
+<header class="bg-blue-300 shadow-lg p-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold text-gray-800">Technician Dashboard</h1>
+        <div class="flex items-center space-x-4">
+            <img src="../images/download.png" alt="User Avatar" class="w-8 h-8 rounded-full">
+            <span class="text-gray-900">John Doe</span>
+            <a href="#" class="text-blue-700 hover:underline">Logout</a>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main class="container mx-auto py-6">
+
+    <!-- Metrics Section -->
+    <section class="bg-blue-400 shadow-md rounded-lg p-4 mb-6">
+        <h2 class="text-lg font-semibold text-gray-800 mb-4">Metrics</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-blue-200 p-4 rounded-md">
+                <h3 class="text-blue-900 text-sm font-semibold mb-2">Total Assets</h3>
+                <p class="text-2xl font-bold">120</p>
+            </div>
+            <div class="bg-green-200 p-4 rounded-md">
+                <h3 class="text-green-900 text-sm font-semibold mb-2">Active Assets</h3>
+                <p class="text-2xl font-bold">90</p>
+            </div>
+            <div class="bg-yellow-200 p-4 rounded-md">
+                <h3 class="text-yellow-900 text-sm font-semibold mb-2">Maintenance Tasks</h3>
+                <p class="text-2xl font-bold">15</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Maintenance Tasks Section -->
+    <section class="bg-blue-400 shadow-md rounded-lg p-4 mb-6">
+        <h2 class="text-lg font-semibold text-gray-800 mb-4">Maintenance Tasks</h2>
+        <div class="overflow-x-auto">
+            <table class="min-w-full border-collapse border border-gray-200">
+                <thead>
+                    <tr class="bg-gray-100">
+                        <th class="border border-gray-300 px-4 py-2">Asset ID</th>
+                        <th class="border border-gray-300 px-4 py-2">Name</th>
+                        <th class="border border-gray-300 px-4 py-2">Scheduled Date</th>
+                        <th class="border border-gray-300 px-4 py-2">Status</th>
+                        <th class="border border-gray-300 px-4 py-2">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">001</td>
+                        <td class="border border-gray-300 px-4 py-2">PC</td>
+                        <td class="border border-gray-300 px-4 py-2">2024-06-15</td>
+                        <td class="border border-gray-300 px-4 py-2">Pending</td>
+                        <td class="border border-gray-300 px-4 py-2">
+                           
+                            <button class="bg-gray-300 text-gray-600 px-2 py-1 rounded hover:bg-gray-400">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">002</td>
+                        <td class="border border-gray-300 px-4 py-2">Laptop</td>
+                        <td class="border border-gray-300 px-4 py-2">2024-06-20</td>
+                        <td class="border border-gray-300 px-4 py-2">Pending</td>
+                        <td class="border border-gray-300 px-4 py-2">
+                           
+                           <a href="maintenanceSchedule.html"><button class="bg-gray-300 text-gray-600 px-2 py-1 rounded hover:bg-gray-400">Edit</button></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Recent Activities Section -->
+    <section class="bg-blue-400 shadow-md rounded-lg p-4 mb-6">
+        <h2 class="text-lg font-semibold text-gray-800 mb-4">Recent Activities</h2>
+        <ul class="list-disc pl-4">
+            <li class="mb-2">2024-06-08 | Logged Maintenance | Logged service</li>
+            <li class="mb-2">2024-06-07 | Added Asset | Added new laptop</li>
+            <li class="mb-2">2024-06-06 | Updated Asset | Updated desktop specs</li>
+        </ul>
+    </section>
+
+</main>
+
+</body>
+</html>
