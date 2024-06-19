@@ -37,6 +37,6 @@ As of now, I'm actively developing the application. I've completed the frontend,
 
 ### To try out our frontend:
 
-- Clone the repository: git clone https://github.com/your-username/it-asset-management-app.git
+- Clone the repository using git clone
 - Navigate to the project directory: cd it-asset-management-app
 O- pen the index.html file in your web browser to access the frontend. 
